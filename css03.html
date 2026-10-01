@@ -5,7 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Exercise 3</title>
+  <style>
+    h1 {
+      color: green;
+    }
 
+    .big-red {
+      color: red;
+      font-size: 200%;
+    }
+  </style>
 </head>
 
 <body>
@@ -14,7 +23,7 @@
 
   <p>Imagine if you had multiple paragraphs on a web page and you wanted one of them to use a large red font, another to use a smaller font, and a third to have a background color.</p>
 
-  <p>How would you make each of them different when all three paragraphs use the &lt;p&gt; element?</p>
+  <p class="big-red">How would you make each of them different when all three paragraphs use the &lt;p&gt; element?</p>
 
   <p>You can add a class to any HTML element but <strong>don't go crazy slapping a class onto <i>everything</i> you want to style...</strong> most times you can talk directly to the element itself without a class or use a selector based on the context of the element you want to style.</p>
 
@@ -22,7 +31,7 @@
 
 
 
-  <h2><u>Step 1:</u><br>
+  <h2 class="big-red"><u>Step 1:</u><br>
     Write a style rule that starts with a period and then give it a name:</h2>
 
   <code>
